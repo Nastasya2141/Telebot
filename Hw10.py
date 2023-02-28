@@ -2,7 +2,7 @@
 # пользователей в файл.
 import telebot
 
-token = '6176451589:AAGoruu-rXE5meMPofI1lrADptwuGCZSBbQ'
+token = 'token'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
